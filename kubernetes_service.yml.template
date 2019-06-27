@@ -10,7 +10,7 @@ metadata:
     app: quickstart-se01
     commit: ${WERCKER_GIT_COMMIT}
 spec:
-  type: NodePort Exposes the service as a node port -- old: LoadBalancer
+  type: NodePort #Exposes the service as a node port -- old: LoadBalancer
   selector:
     app: quickstart-se01
     commit: ${WERCKER_GIT_COMMIT}
